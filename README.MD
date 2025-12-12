@@ -37,6 +37,8 @@ const FOLDER_ID = "your_google_drive_folder_id";
 
 Note: Update the Category IDs (CAT_JUDGMENTS, CAT_SC, etc.) to match the specific ID numbers in your WordPress installation.
 
+---
+
 ## How It Works
 
 * Ingest: The script scans the target Google Drive folder.
