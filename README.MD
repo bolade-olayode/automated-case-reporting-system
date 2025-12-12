@@ -37,12 +37,13 @@ const FOLDER_ID = "your_google_drive_folder_id";
 
 Note: Update the Category IDs (CAT_JUDGMENTS, CAT_SC, etc.) to match the specific ID numbers in your WordPress installation.
 
-How It Works
-Ingest: The script scans the target Google Drive folder.
-Convert: If the file is a PDF, it converts it to a temporary Google Doc.
-Parse: It reads the text, looking for specific legal keywords (e.g., "RATIO DECIDENDI", "ISSUES").
-Tagging: It creates tags in WordPress dynamically based on the "Subject Matter" section of the document.
-Publish: It constructs an HTML payload with the parsed text and an iframe preview of the original file, then POSTs it to WordPress.
+## How It Works
 
-License
-This project is created and maintained by Olayode Bolade.
+* Ingest: The script scans the target Google Drive folder.
+* Convert: If the file is a PDF, it converts it to a temporary Google Doc.
+* Parse: It reads the text, looking for specific legal keywords (e.g., "RATIO DECIDENDI", "ISSUES").
+* Tagging: It creates tags in WordPress dynamically based on the "Subject Matter" section of the document.
+* Publish: It constructs an HTML payload with the parsed text and an iframe preview of the original file, then POSTs it to WordPress.
+
+## License
+* This project is created and maintained by Olayode Bolade.
