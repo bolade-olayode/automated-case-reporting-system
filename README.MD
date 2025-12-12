@@ -36,8 +36,7 @@ const APP_PASSWORD = "your_application_password"; // Use an App Password, not yo
 const FOLDER_ID = "your_google_drive_folder_id";
 
 Note: Update the Category IDs (CAT_JUDGMENTS, CAT_SC, etc.) to match the specific ID numbers in your WordPress installation.
-
----
+```
 
 ## How It Works
 
